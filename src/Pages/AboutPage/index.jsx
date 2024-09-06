@@ -1,4 +1,4 @@
-import home3 from "../../assets/home3.jpg";
+import about1 from "../../assets/about1.jpg";
 import about2 from "../../assets/about2.jpg";
 
 const AboutPage = () => {
@@ -25,8 +25,8 @@ const AboutPage = () => {
 
         <div className="flex justify-center">
           <img
-            src={home3}
-            alt="Traveling things, passport, sunglasses and camera"
+            src={about1}
+            alt="a person pointing at a camera, nearby macbook"
             style={{ width: "100%", height: "300px" }}
             className="rounded-lg"
           />
