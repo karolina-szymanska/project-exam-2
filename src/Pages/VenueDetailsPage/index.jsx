@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { BASE_URL } from "../../components/API";
 import { useFetch } from "../../components/Hooks/useFetch";
 import { MdOutlineEmail } from "react-icons/md";
-import { FaBed, FaWifi, FaParking } from "react-icons/fa";
+import { FaArrowLeft, FaBed, FaWifi, FaParking } from "react-icons/fa";
 import { MdOutlinePets, MdBreakfastDining } from "react-icons/md";
 import StarRate from "../../components/StarRating";
 import NoImage from "../../assets/no_image.jpg";
@@ -53,6 +53,16 @@ const VenueDetailsPage = () => {
 
   return (
     <div className="mx-auto max-w-screen-md rounded-xl border bg-white md:my-6">
+      <div className="ms-4 mt-4">
+        <Link
+          to={`/listings`}
+          className="flex items-center gap-2 underline hover:text-violet-700"
+        >
+          <FaArrowLeft />
+          Back to List of Venues
+        </Link>
+      </div>
+
       <div className="py-4 md:px-6">
         {media && media.length > 0 && (
           <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-6">
@@ -128,7 +138,7 @@ const VenueDetailsPage = () => {
             </div>
 
             <div className="mt-6">
-              <div className="mt-1 flex gap-1 text-lg text-violet-700">
+              <div className="mt-1 flex gap-1 text-lg text-blue-700">
                 <p>Price</p>
                 <p>${price} per night</p>
               </div>
@@ -143,7 +153,7 @@ const VenueDetailsPage = () => {
                       <FaWifi
                         size={20}
                         title="WiFi Available"
-                        className="h-8 w-8 rounded-full bg-violet-700 p-1 text-white"
+                        className="h-8 w-8 rounded-full bg-blue-700 p-1 text-white"
                       />
                       <span>WiFi</span>
                     </li>
@@ -153,7 +163,7 @@ const VenueDetailsPage = () => {
                       <MdBreakfastDining
                         size={20}
                         title="Breakfast Included"
-                        className="h-8 w-8 rounded-full bg-violet-700 p-1 text-white"
+                        className="h-8 w-8 rounded-full bg-blue-700 p-1 text-white"
                       />
                       <span>Breakfast</span>
                     </li>
@@ -163,7 +173,7 @@ const VenueDetailsPage = () => {
                       <FaParking
                         size={20}
                         title="Parking Available"
-                        className="h-8 w-8 rounded-full bg-violet-700 p-1 text-white"
+                        className="h-8 w-8 rounded-full bg-blue-700 p-1 text-white"
                       />
                       <span>Parking</span>
                     </li>
@@ -173,7 +183,7 @@ const VenueDetailsPage = () => {
                       <MdOutlinePets
                         size={20}
                         title="Pets Allowed"
-                        className="h-8 w-8 rounded-full bg-violet-700 p-1 text-white"
+                        className="h-8 w-8 rounded-full bg-blue-700 p-1 text-white"
                       />
                       <span>Pets</span>
                     </li>
