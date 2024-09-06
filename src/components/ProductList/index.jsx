@@ -3,7 +3,7 @@ import { BASE_URL } from "../API";
 import Spinner from "../Spinner";
 import { IoCloseOutline } from "react-icons/io5";
 import { BiSearch } from "react-icons/bi";
-import ProductCard from "../card";
+import ProductCard from "../Card";
 import FilterDropdown from "../FilterDropdown";
 
 function ProductList() {
