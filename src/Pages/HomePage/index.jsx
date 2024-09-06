@@ -56,7 +56,7 @@ const HomePage = () => {
       </div>
 
       <div className="my-12 ml-8 flex overflow-auto md:ml-0 lg:ml-0">
-        <div className="flex justify-evenly rounded-lg bg-violet-700 p-5 text-white">
+        <div className="flex justify-evenly rounded-lg bg-blue-700 p-5 text-white">
           <p className="m-2 mt-5 w-72 p-1 text-xl font-semibold md:w-1/4">
             Find and book your perfect stay
           </p>
@@ -143,7 +143,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="bg-violet-700 py-8 md:my-12 md:rounded-xl">
+      <div className="bg-blue-700 py-8 md:my-12 md:rounded-xl">
         <p className="text-center text-lg font-semibold uppercase text-white md:text-xl">
           Subscribe our newsletter
         </p>

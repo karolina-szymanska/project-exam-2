@@ -4,7 +4,7 @@ import about2 from "../../assets/about2.jpg";
 const AboutPage = () => {
   return (
     <div className="mx-auto mb-6 max-w-screen-md">
-      <h1 className="mt-4 text-center text-2xl font-bold uppercase text-violet-700 md:mt-12">
+      <h1 className="mt-4 text-center text-2xl font-bold uppercase text-blue-700 md:mt-12">
         About
       </h1>
       <div className="mx-5 sm:p-2">
@@ -33,7 +33,7 @@ const AboutPage = () => {
         </div>
         <div className="py-4">
           <div className="mb-3">
-            <p className="text-lg font-semibold text-violet-700">
+            <p className="text-lg font-semibold text-blue-700">
               Discover New Destinations
             </p>
             <p>
@@ -44,7 +44,7 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="mb-3">
-            <p className="text-lg font-semibold text-violet-700">
+            <p className="text-lg font-semibold text-blue-700">
               Seamless Booking
             </p>
             <p>
@@ -55,7 +55,7 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="mb-3">
-            <p className="text-lg font-semibold text-violet-700">
+            <p className="text-lg font-semibold text-blue-700">
               Unforgettable Experiences
             </p>
             <p>
@@ -66,7 +66,7 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="mb-3">
-            <p className="text-lg font-semibold text-violet-700">
+            <p className="text-lg font-semibold text-blue-700">
               Your Adventure Awaits
             </p>
             <p>
