@@ -152,7 +152,7 @@ function ProductList() {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="mx-auto mb-6 flex w-full max-w-[990px] flex-col items-center bg-violet-700 px-2 py-6 md:my-6 md:mt-10 md:rounded-xl">
+      <div className="mx-auto mb-6 flex w-full max-w-[990px] flex-col items-center bg-blue-700 px-2 py-6 md:my-6 md:mt-10 md:rounded-xl">
         <h1 className="mb-4 text-2xl font-medium capitalize text-white md:text-3xl">
           Find new Venue
         </h1>
@@ -195,7 +195,7 @@ function ProductList() {
           className={`w-24 rounded-full p-2 py-2 ${
             pageCounter === 1
               ? "cursor-not-allowed border border-zinc-300 opacity-50"
-              : "bg-violet-700 text-white"
+              : "bg-blue-700 text-white"
           }`}
           disabled={pageCounter === 1}
         >
@@ -209,7 +209,7 @@ function ProductList() {
           className={`w-24 rounded-full p-2 py-2 ${
             pageCounter === totalPages
               ? "cursor-not-allowed border border-zinc-300 opacity-50"
-              : "bg-violet-700 text-white hover:bg-violet-800"
+              : "bg-blue-700 text-white hover:bg-blue-800"
           }`}
           disabled={pageCounter === totalPages}
         >

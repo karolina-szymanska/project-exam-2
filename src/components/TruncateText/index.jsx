@@ -31,7 +31,7 @@ const TruncateText = ({ text, maxLength }) => {
     <div>
       <span>{truncatedText}</span>
       {text.length > maxLength && (
-        <button onClick={handleToggle} className="text-sm text-violet-700">
+        <button onClick={handleToggle} className="text-sm text-blue-700">
           ({isTruncated ? "View More" : "View Less"})
         </button>
       )}

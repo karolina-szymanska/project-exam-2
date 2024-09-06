@@ -4,7 +4,7 @@ import { GiPalmTree } from "react-icons/gi";
 
 const Logo = ({ colorClass }) => {
   return (
-    <div className={colorClass || "text-violet-700"}>
+    <div className={colorClass || "text-blue-700"}>
       {" "}
       <Link to="/" className="flex items-center">
         <GiPalmTree size={40} />

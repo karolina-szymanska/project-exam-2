@@ -11,7 +11,7 @@ export function isLoggedIn() {
 const NavLinks = ({ isOpen, closeMenu }) => {
   const { pathname } = useLocation();
   const isActiveNavLink = (path) => {
-    return pathname === path ? "text-violet-700 font-bold" : "text-black";
+    return pathname === path ? "text-blue-700 font-bold" : "text-black";
   };
 
   return (
@@ -19,7 +19,7 @@ const NavLinks = ({ isOpen, closeMenu }) => {
       {isOpen && isLoggedIn() && (
         <NavLink
           to="/profile"
-          className={`mb-2 p-2 text-xl uppercase hover:bg-violet-700 hover:text-white md:px-4 md:text-lg md:hover:bg-zinc-50 md:hover:font-bold md:hover:text-violet-700 ${isActiveNavLink("/profile")}`}
+          className={`mb-2 p-2 text-xl uppercase hover:bg-blue-700 hover:text-white md:px-4 md:text-lg md:hover:bg-zinc-50 md:hover:font-bold md:hover:text-blue-700 ${isActiveNavLink("/profile")}`}
           onClick={closeMenu}
         >
           Profile
@@ -27,7 +27,7 @@ const NavLinks = ({ isOpen, closeMenu }) => {
       )}
       <NavLink
         to="/"
-        className={`mb-2 p-2 text-xl uppercase hover:bg-violet-700 hover:text-white md:px-4 md:text-lg md:hover:bg-zinc-50 md:hover:font-bold md:hover:text-violet-700 ${isActiveNavLink("/")}`}
+        className={`mb-2 p-2 text-xl uppercase hover:bg-blue-700 hover:text-white md:px-4 md:text-lg md:hover:bg-zinc-50 md:hover:font-bold md:hover:text-blue-700 ${isActiveNavLink("/")}`}
         exact="true"
         onClick={closeMenu}
       >
@@ -36,7 +36,7 @@ const NavLinks = ({ isOpen, closeMenu }) => {
 
       <NavLink
         to="/listings"
-        className={`mb-2 p-2 text-xl uppercase hover:bg-violet-700 hover:text-white md:px-4 md:text-lg md:hover:bg-zinc-50 md:hover:font-bold md:hover:text-violet-700 ${isActiveNavLink("/listings")}`}
+        className={`mb-2 p-2 text-xl uppercase hover:bg-blue-700 hover:text-white md:px-4 md:text-lg md:hover:bg-zinc-50 md:hover:font-bold md:hover:text-blue-700 ${isActiveNavLink("/listings")}`}
         onClick={closeMenu}
       >
         Venues
@@ -44,7 +44,7 @@ const NavLinks = ({ isOpen, closeMenu }) => {
 
       <NavLink
         to="/about"
-        className={`p-2 text-xl uppercase hover:bg-violet-700 hover:text-white md:px-4 md:text-lg md:hover:bg-zinc-50 md:hover:font-bold md:hover:text-violet-700 ${isActiveNavLink("/about")}`}
+        className={`p-2 text-xl uppercase hover:bg-blue-700 hover:text-white md:px-4 md:text-lg md:hover:bg-zinc-50 md:hover:font-bold md:hover:text-blue-700 ${isActiveNavLink("/about")}`}
         onClick={closeMenu}
       >
         About
@@ -90,7 +90,7 @@ const Nav = () => {
           ) : (
             <NavLink
               to="/login"
-              className="mr-3 rounded-full bg-gradient-to-t from-violet-500 to-violet-700 px-6 py-2 font-semibold uppercase text-white hover:to-violet-900 hover:font-bold md:mr-0"
+              className="mr-3 rounded-full bg-gradient-to-t from-blue-500 to-blue-700 px-6 py-2 font-semibold uppercase text-white hover:to-blue-900 hover:font-bold md:mr-0"
               onClick={closeMenu}
             >
               Login

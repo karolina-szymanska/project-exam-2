@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="bg-zinc-700 p-6 text-white">
       <div className="mx-auto max-w-screen-lg items-center justify-evenly md:flex md:flex-row">
         <div className="mb-10 flex flex-col items-center md:mb-0 md:w-1/4">
-          <Logo colorClass="text-violet-400" />
+          <Logo colorClass="text-blue-400" />
           <div className="mt-2 flex gap-3">
             <FaFacebook size={24} />
             <FaInstagram size={24} />
@@ -27,7 +27,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   to="/profile"
-                  className="hover:font-bold hover:text-violet-400"
+                  className="hover:font-bold hover:text-blue-400"
                 >
                   Profile
                 </NavLink>
@@ -36,21 +36,21 @@ const Footer = () => {
               <li>
                 <NavLink
                   to="/login"
-                  className="hover:font-bold hover:text-violet-400"
+                  className="hover:font-bold hover:text-blue-400"
                 >
                   Login
                 </NavLink>
               </li>
             )}
             <li>
-              <NavLink to="/" className="hover:font-bold hover:text-violet-400">
+              <NavLink to="/" className="hover:font-bold hover:text-blue-400">
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/listings"
-                className="hover:font-bold hover:text-violet-400"
+                className="hover:font-bold hover:text-blue-400"
               >
                 Venues
               </NavLink>
@@ -58,7 +58,7 @@ const Footer = () => {
             <li>
               <NavLink
                 to="/about"
-                className="hover:font-bold hover:text-violet-400"
+                className="hover:font-bold hover:text-blue-400"
               >
                 About
               </NavLink>
@@ -75,7 +75,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="rounded-full border bg-gradient-to-t from-violet-500 to-violet-700 px-3 py-1 uppercase text-white hover:bg-gradient-to-t hover:to-violet-900 hover:font-bold"
+              className="rounded-full border bg-gradient-to-t from-blue-500 to-blue-700 px-3 py-1 uppercase text-white hover:bg-gradient-to-t hover:to-blue-900 hover:font-bold"
             >
               Submit
             </button>

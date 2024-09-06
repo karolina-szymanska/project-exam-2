@@ -13,7 +13,7 @@ const StarRatingCard = ({ rating, size = 16 }) => {
   }, [rating]);
 
   return (
-    <div className="flex w-14 items-center justify-center rounded-full bg-violet-700 text-white">
+    <div className="flex w-14 items-center justify-center rounded-full bg-blue-700 text-white">
       {ratingValue !== null && ratingValue !== 0 ? (
         <>
           <FaStar size={size} color="orange" />

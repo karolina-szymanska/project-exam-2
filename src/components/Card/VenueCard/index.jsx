@@ -15,7 +15,7 @@ const VenueCard = ({ venue }) => {
 
   return (
     <Link to={`/venue/${venue.id}`} className="block h-full">
-      <div className="flex h-full flex-col justify-between rounded-lg border bg-white p-4 py-4 hover:border-4 hover:border-violet-700">
+      <div className="flex h-full flex-col justify-between rounded-lg border bg-white p-4 py-4 hover:border-4 hover:border-blue-700">
         {venue.media && venue.media.length > 0 ? (
           <div className="relative block h-48 w-full">
             <img
@@ -42,7 +42,7 @@ const VenueCard = ({ venue }) => {
         <div className="mt-2 flex flex-grow flex-col justify-between">
           <div>
             <h2 className="mt-1 truncate font-bold">{venue.name}</h2>
-            <div className="flex items-center gap-1 border-b-2 border-violet-700 pb-2">
+            <div className="flex items-center gap-1 border-b-2 border-blue-700 pb-2">
               <FaMapMarkerAlt />
               <p className="md:text-md truncate text-sm">
                 {venue.location?.city}, {venue.location?.country}
@@ -62,7 +62,7 @@ const VenueCard = ({ venue }) => {
                 <FaWifi
                   size={20}
                   title="WiFi Available"
-                  className="h-8 w-8 rounded-full bg-violet-700 p-1 text-white"
+                  className="h-8 w-8 rounded-full bg-blue-700 p-1 text-white"
                 />
               </div>
             )}
@@ -71,7 +71,7 @@ const VenueCard = ({ venue }) => {
                 <FaParking
                   size={20}
                   title="Parking Available"
-                  className="h-8 w-8 rounded-full bg-violet-700 p-1 text-white"
+                  className="h-8 w-8 rounded-full bg-blue-700 p-1 text-white"
                 />
               </div>
             )}
@@ -80,7 +80,7 @@ const VenueCard = ({ venue }) => {
                 <MdBreakfastDining
                   size={20}
                   title="Breakfast Included"
-                  className="h-8 w-8 rounded-full bg-violet-700 p-1 text-white"
+                  className="h-8 w-8 rounded-full bg-blue-700 p-1 text-white"
                 />
               </div>
             )}
@@ -89,7 +89,7 @@ const VenueCard = ({ venue }) => {
                 <MdOutlinePets
                   size={20}
                   title="Pets Allowed"
-                  className="h-8 w-8 rounded-full bg-violet-700 p-1 text-white"
+                  className="h-8 w-8 rounded-full bg-blue-700 p-1 text-white"
                 />
               </div>
             )}
