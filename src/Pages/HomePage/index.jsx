@@ -33,7 +33,7 @@ const HomePage = () => {
             height: "300px",
             filter: "brightness(60%)",
           }}
-          className="md:mt-6 md:rounded-xl"
+          className="object-cover md:mt-6 md:rounded-xl"
         />
 
         <div className="absolute bottom-0 left-10 top-2 flex w-44 flex-col items-center justify-center uppercase">
