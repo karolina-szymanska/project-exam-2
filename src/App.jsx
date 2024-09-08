@@ -3,6 +3,7 @@ import HomePage from "./Pages/HomePage";
 import ListOfVenuesPage from "./Pages/ListOfVenuesPage";
 import AboutPage from "./Pages/AboutPage";
 import Layout from "./components/Layout";
+import NotFoundPage from "./Pages/NotFoundPage";
 import VenueDetailsPage from "./Pages/VenueDetailsPage";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="listings" element={<ListOfVenuesPage />} />
           <Route path="venue/:id" element={<VenueDetailsPage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </Router>
