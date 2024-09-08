@@ -28,7 +28,7 @@ const AboutPage = () => {
             src={about1}
             alt="a person pointing at a camera, nearby macbook"
             style={{ width: "100%", height: "300px" }}
-            className="rounded-lg"
+            className="rounded-lg object-cover"
           />
         </div>
         <div className="py-4">
@@ -82,7 +82,7 @@ const AboutPage = () => {
             src={about2}
             alt="A smiling woman sitting on a boat, spreading her arms upwards"
             style={{ width: "100%", height: "300px" }}
-            className="rounded-lg"
+            className="rounded-lg object-cover"
           />
         </div>
 
