@@ -5,6 +5,7 @@ import AboutPage from "./Pages/AboutPage";
 import Layout from "./components/Layout";
 import NotFoundPage from "./Pages/NotFoundPage";
 import VenueDetailsPage from "./Pages/VenueDetailsPage";
+import RegisterPage from "./Pages/RegisterPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="listings" element={<ListOfVenuesPage />} />
           <Route path="venue/:id" element={<VenueDetailsPage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="register" element={<RegisterPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
