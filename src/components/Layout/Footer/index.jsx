@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-8 text-center text-sm md:mt-3">
-        &copy; Holidaze 2024.
+        &copy; Holidaze 2024
       </div>
     </div>
   );
