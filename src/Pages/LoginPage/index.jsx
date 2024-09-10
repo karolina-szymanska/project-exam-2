@@ -68,7 +68,7 @@ const LoginPage = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Email"
-                className="w-full rounded-xl border py-2 pl-12 leading-tight focus:border-violet-700 focus:bg-white focus:outline-none"
+                className="w-full rounded-xl border py-2 pl-12 leading-tight focus:border-blue-700 focus:bg-white focus:outline-none"
               />
               <IoClose
                 size={30}
@@ -84,7 +84,7 @@ const LoginPage = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Password"
-                className="w-full rounded-xl border py-2 pl-12 focus:border-violet-700 focus:bg-white focus:outline-none"
+                className="w-full rounded-xl border py-2 pl-12 focus:border-blue-700 focus:bg-white focus:outline-none"
               />
               <IoClose
                 size={30}
@@ -101,7 +101,7 @@ const LoginPage = () => {
         </div>
         <p className="text-md mt-2 text-center">
           Don't have an account yet?{" "}
-          <Link to={"/register"} className="text-violet-700 underline">
+          <Link to={"/register"} className="text-blue-700 underline">
             Create an account
           </Link>
         </p>
