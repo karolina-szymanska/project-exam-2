@@ -171,7 +171,7 @@ const RegisterPage = () => {
                 onChange={handleNameChange}
                 onBlur={() => validateName(name)}
                 id="name"
-                className={`w-full rounded-xl border py-2 pl-12 focus:border-violet-700 focus:bg-white focus:outline-none ${
+                className={`w-full rounded-xl border py-2 pl-12 focus:border-blue-700 focus:bg-white focus:outline-none ${
                   nameError ? "border-red-700" : ""
                 }`}
                 placeholder="Name"
@@ -197,7 +197,7 @@ const RegisterPage = () => {
                 onChange={handleEmailChange}
                 onBlur={() => validateEmail(email)}
                 id="email"
-                className={`w-full rounded-xl border py-2 pl-12 focus:border-violet-700 focus:bg-white focus:outline-none ${
+                className={`w-full rounded-xl border py-2 pl-12 focus:border-blue-700 focus:bg-white focus:outline-none ${
                   emailError ? "border-red-700" : ""
                 }`}
                 placeholder="Email address"
@@ -220,7 +220,7 @@ const RegisterPage = () => {
                 onChange={handlePasswordChange}
                 onBlur={() => validatePassword(password)}
                 id="password"
-                className={`w-full rounded-xl border py-2 pl-12 focus:border-violet-700 focus:bg-white focus:outline-none ${
+                className={`w-full rounded-xl border py-2 pl-12 focus:border-blue-700 focus:bg-white focus:outline-none ${
                   passwordError ? "border-red-700" : ""
                 }`}
                 placeholder="Password"
@@ -245,7 +245,7 @@ const RegisterPage = () => {
                 onChange={handleConfirmPasswordChange}
                 onBlur={() => validateConfirmPassword(confirmPassword)}
                 id="confirmPassword"
-                className={`w-full rounded-xl border py-2 pl-12 focus:border-violet-700 focus:bg-white focus:outline-none ${
+                className={`w-full rounded-xl border py-2 pl-12 focus:border-blue-700 focus:bg-white focus:outline-none ${
                   confirmPasswordError ? "border-red-700" : ""
                 }`}
                 placeholder="Confirm Password"
@@ -271,7 +271,7 @@ const RegisterPage = () => {
                   onChange={() => setVenueManager(false)}
                   name="userType"
                   value="Guest"
-                  className="text-violet-700 checked:bg-violet-700 focus:ring-violet-700"
+                  className="text-blue-700 checked:bg-blue-700 focus:ring-blue-700"
                 />
                 <label htmlFor="guestRadio"> Guest</label>
               </div>
@@ -283,7 +283,7 @@ const RegisterPage = () => {
                   onChange={() => setVenueManager(true)}
                   name="userType"
                   value="Venue Manager"
-                  className="text-violet-700 checked:bg-violet-700 focus:ring-violet-700"
+                  className="text-blue-700 checked:bg-blue-700 focus:ring-blue-700"
                 />
                 <label htmlFor="venueManagerRadio"> Venue Manager </label>
               </div>
@@ -305,7 +305,7 @@ const RegisterPage = () => {
               <p className="mb-2 text-center text-xl">
                 Your account <b>{registeredEmail}</b> is successfully created!!
               </p>
-              <button className="mt-2 w-full rounded-full bg-gradient-to-t from-violet-500 to-violet-700 p-2 font-semibold uppercase text-white hover:to-violet-900 hover:font-bold">
+              <button className="mt-2 w-full rounded-full bg-gradient-to-t from-blue-500 to-blue-700 p-2 font-semibold uppercase text-white hover:to-blue-900 hover:font-bold">
                 <Link to="/login">Login</Link>
               </button>
             </div>
@@ -314,7 +314,7 @@ const RegisterPage = () => {
         {!loggedIn && (
           <p className="text-md mt-2 text-center">
             Have an account?{" "}
-            <Link to={"/login"} className="text-violet-700 underline">
+            <Link to={"/login"} className="text-blue-700 underline">
               Login Here
             </Link>
           </p>
