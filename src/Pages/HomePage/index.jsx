@@ -131,7 +131,7 @@ const HomePage = () => {
           <div className="card rounded-xl border md:mt-2 lg:mt-7">
             <img
               src={home4}
-              alt="a person in a straw hat lying on sand"
+              alt="a woman in a straw hat lying on sand"
               className="card-img-top h-56 w-full rounded-xl object-cover md:h-40"
             />
             <div className="card-body p-2">
