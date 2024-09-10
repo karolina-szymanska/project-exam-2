@@ -1,5 +1,5 @@
 import React from "react";
-import VenueCard from "./venueCard";
+import VenueCard from "./VenueCard";
 
 const ProductCard = ({ venues }) => {
   return (
