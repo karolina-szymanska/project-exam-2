@@ -152,7 +152,7 @@ const VenueDetailsPage = () => {
         <div className="grid grid-cols-1 break-all md:grid-cols-2">
           <div className="m-4 mt-4">
             <div className="flex flex-col md:flex-row md:gap-3">
-              <h1 className="text-xl font-bold">
+              <h1 className="text-xl font-bold capitalize">
                 {" "}
                 <TruncateText text={name} maxLength={maxNameLength} />
               </h1>
@@ -287,13 +287,15 @@ const VenueDetailsPage = () => {
                   <p className="truncate">Address: {location.address}</p>
                 )}
                 {location.city && (
-                  <p className="truncate">City: {location.city}</p>
+                  <p className="truncate capitalize">City: {location.city}</p>
                 )}
                 {location.zip && (
                   <p className="truncate">ZIP: {location.zip}</p>
                 )}
                 {location.country && (
-                  <p className="truncate">Country: {location.country}</p>
+                  <p className="truncate capitalize">
+                    Country: {location.country}
+                  </p>
                 )}
               </div>
             ) : null}

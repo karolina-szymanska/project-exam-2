@@ -42,12 +42,12 @@ const VenueCard = ({ venue }) => {
 
         <div className="mt-2 flex flex-grow flex-col justify-between">
           <div>
-            <h2 className="mt-1 truncate font-bold">{venue.name}</h2>
+            <h2 className="mt-1 truncate font-bold capitalize">{venue.name}</h2>
             <div className="flex items-center gap-1 border-b-2 border-blue-700 pb-2">
               <FaMapMarkerAlt />
 
               {venue.location.city && venue.location.country ? (
-                <p className="md:text-md truncate text-sm">
+                <p className="md:text-md truncate text-sm capitalize">
                   {venue.location?.city}, {venue.location?.country}
                 </p>
               ) : (
