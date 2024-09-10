@@ -25,7 +25,7 @@ const FilterDropdown = ({ filter, setFilter }) => {
       <div className="flex items-center">
         <button
           onClick={toggleDropdown}
-          className="flex items-center rounded-full bg-gradient-to-t from-orange-300 to-orange-400 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-700"
+          className="flex items-center rounded-full bg-gradient-to-t from-orange-300 to-orange-400 px-4 py-2"
         >
           Filter
           {!isOpen ? (
