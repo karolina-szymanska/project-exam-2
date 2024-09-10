@@ -112,7 +112,7 @@ const VenueDetailsPage = () => {
                 <img
                   src={media[0].url}
                   alt={`Image 1`}
-                  className="h-full max-h-[300px] w-full md:rounded-xl"
+                  className="h-full max-h-[300px] w-full object-cover md:rounded-xl"
                   onError={(e) => {
                     e.target.onerror = null;
                     e.target.src = NoImage;
@@ -124,7 +124,7 @@ const VenueDetailsPage = () => {
                 <img
                   src={media[0].url}
                   alt={`Image 1`}
-                  className="h-full max-h-[300px] w-full md:rounded-xl"
+                  className="h-full max-h-[300px] w-full object-cover md:rounded-xl"
                   onError={(e) => {
                     e.target.onerror = null;
                     e.target.src = NoImage;
@@ -144,7 +144,7 @@ const VenueDetailsPage = () => {
             <img
               src={NoImage}
               alt="No Image"
-              className="mx-auto max-h-[300px] border md:rounded-xl"
+              className="mx-auto max-h-[300px] border object-cover md:rounded-xl"
             />
           </div>
         ) : null}
@@ -311,7 +311,7 @@ const VenueDetailsPage = () => {
                 <img
                   src={ownerAvatarUrl}
                   alt="profile image of host"
-                  className="h-16 w-16 rounded-full"
+                  className="h-16 w-16 rounded-full object-cover"
                   onError={(e) => {
                     e.target.onerror = null;
                     e.target.src = NoImage;
