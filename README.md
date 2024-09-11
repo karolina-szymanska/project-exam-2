@@ -1,102 +1,83 @@
 # Project Exam 2
 
-## Goal
+![Screenshot](./src/assets/holidaze.png)
 
-To take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate's general development capabilities, in addition to visual and technical skills.
+## Deployment
 
-## Brief
+[![Netlify Status](https://api.netlify.com/api/v1/badges/106c67e0-795d-465a-aebf-f8c2cd6ffd64/deploy-status)] https://project-exam-2-karolina-szymanska.netlify.app
 
-An existing Social Media company has approached you to create a brand new front end for their application. While they have a list of required features, the design and user experience has not been specified. Working with the official API documentation, plan, design and build a modern front end social media application.
+### Goal
 
-## Requirements
+To take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate’s general development capabilities, in addition to visual and technical skills.
 
-> All admin functionality is managed by an existing application. This project only covers the front-end application for the API.
+### Brief
 
-## API
+A newly launched accommodation booking site called Holidaze has approached you to develop a brand new front end for their application. While they have a list of required features, the design and user experience has not been specified. Working with the official API documentation, plan, design and build a modern front end accommodation booking application.
 
-The API you are using for this project can be found under Social EndPoints in the [Noroff API documentation](https://noroff-api-docs.netlify.app/).
+There are two aspects to this brief: the customer-facing side of the website where users can book holidays at a venue, and an admin-facing side of the website where users can register and manage venues and bookings at those venues.
 
-### Resources
+The client has specified the following requirements in the form of User Stories:
 
-[API Guide](https://noroff-api-docs.netlify.app/social-endpoints/authentication)
-[API Documentation](https://nf-api.onrender.com/docs)
+-A user may view a list of Venues
+-A user may search for a specific Venue
+-A user may view a specific Venue page by id
+-A user may view a calendar with available dates for a Venue
+-A user with a stud.noroff.no email may register as a customer
+-A registered customer may create a booking at a Venue
+-A registered customer may view their upcoming bookings
+-A user with a stud.noroff.no email may register as a Venue manager
+-A registered Venue manager may create a Venue
+-A registered Venue manager may update a Venue they manage
+-A registered Venue manager may delete a Venue they manage
+-A registered Venue manager may view bookings for a Venue they manage
+-A registered user may login
+-A registered user may update their avatar
+-A registered user may logout
 
-### User Stories
+### API
 
-The client has specified the following requirements in the form of _User Stories_:
+API Documentation: https://docs.noroff.dev/docs/v2
+API Swagger: https://v2.api.noroff.dev/docs/static/index.html
 
-1. A user with a `stud.noroff.no` email may register
-2. A registered user may login
-3. A registered user may update their avatar and banner
-4. A registered user may logout
-5. A registered user may view a list of `Posts`
-6. A registered user may view a list of `Profiles`
-7. A registered user may view a single `Post` by `id`
-8. A registered user may view a single `Profile` by `name`
-9. A registered user may create a `Post`
-10. A registered user may update a `Post` they own
-11. A registered user may delete a `Post` they own
-12. A registered user may create a `Comment` on any `Post`
-13. A registered user may `react` to any `Post` with an emoji
-14. A registered user may `follow` and `unfollow` another `Profile`
+### Built With
 
-### Technical Restrictions
+- Vite
+- React
+- React-Router-DOM
+- TailwindCSS
+- Nordoff API
 
-The company CTO has set the following technical restrictions:
+#### Getting Started
 
-1. Must use an approved `JavaScript Framework`
-2. Must use an approved `CSS Framework`
-3. Must be hosted on an approved `Static Host`
-4. Must use an approved `Design Application`
-5. Must use an approved `Planning Application`
+Clone the project
 
-### Required Links
+```
+https://github.com/karolina-szymanska/project-exam-2
+```
 
-The Product Owner has requested links to the following:
+For installation
 
-1. A Gantt chart for project timing
-2. A design prototype
-3. A style guide
-4. A kanban project board
-5. A repository link
-6. A hosted application demo link
+```
+npm i
+```
 
-## Approved Resources
+For building Vite project
 
-This list covers libraries and services that have been vetted by the company and approved for use.
+```
+npm run build
+```
 
-### JavaScript Frameworks
+For development mode
 
-- React (>16)
+```
+npm run dev
+```
 
-### CSS Frameworks
+View in Browser
+Open the provided localhost link in your preferred web browser
 
-- Bootstrap (>5)
-- Tailwind (>3)
-- MUI (>5)
-- Styled Components
-- CSS Modules
+### Contact
 
-### Hosting Services
-
-- GitHub Pages
-- Netlify
-
-### Design Applications
-
-- Adobe XD
-- Figma
-- Sketch
-
-### Planning Applications
-
-- Trello
-- GitHub Projects
-
-## Delivery
-
-Include the required links in the Moodle delivery window using [this template format](delivery-template.html).
-
-All final changes must be merged into the default branch `main` or `master`. Other branches will not be checked.
-
-Ensure that the `readme.md` file describes your project thoroughly, including how to setup and run the project locally and any special instructions for testers.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karolina-szyma%C5%84ska-64b36089/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/karolina-szymanska)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karolinaszymanska899@gmail.com)
