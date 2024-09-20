@@ -1,16 +1,12 @@
-# Project Exam 2
+# Project Exam 2, Holidaze
 
 ![Screenshot](./src/assets/holidaze.png)
 
 ## Deployment
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/106c67e0-795d-465a-aebf-f8c2cd6ffd64/deploy-status)] https://project-exam-2-karolina-szymanska.netlify.app
+[Netlify Status](https://api.netlify.com/api/v1/badges/106c67e0-795d-465a-aebf-f8c2cd6ffd64/deploy-status) https://project-exam-2-karolina-szymanska.netlify.app
 
-### Goal
-
-To take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate’s general development capabilities, in addition to visual and technical skills.
-
-### Brief
+## Description
 
 A newly launched accommodation booking site called Holidaze has approached you to develop a brand new front end for their application. While they have a list of required features, the design and user experience has not been specified. Working with the official API documentation, plan, design and build a modern front end accommodation booking application.
 
@@ -34,31 +30,44 @@ The client has specified the following requirements in the form of User Stories:
 - A registered user may update their avatar
 - A registered user may logout
 
-### API
+## Built With
 
-API Documentation: https://docs.noroff.dev/docs/v2 API Swagger: https://v2.api.noroff.dev/docs/static/index.html
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [React-Router-DOM](https://reactrouter.com/en/main)
+- [TailwindCSS](https://tailwindcss.com/)
 
-### Built With
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/reactrouter/reactrouter-original.svg" title="React Router" alt="React Router" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" alt="Tailwind CSS" width="40" height="40"/>&nbsp;
+</div>
 
-- Vite
-- React
-- React-Router-DOM
-- TailwindCSS
-- Nordoff API
+## API
 
-#### Getting Started
+API Documentation: https://docs.noroff.dev/docs/v2
+API Swagger: https://v2.api.noroff.dev/docs/static/index.html
 
-Clone the project
+## Getting Started
+
+### Installing
+
+1. Clone the repo:
 
 ```
 https://github.com/karolina-szymanska/project-exam-2
 ```
 
-For installation
+2. Install the dependencies:
 
 ```
-npm i
+npm install
 ```
+
+### Running
+
+To run the app, run the following commands:
 
 For building Vite project
 
@@ -78,5 +87,7 @@ Open the provided localhost link in your preferred web browser
 ### Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karolina-szyma%C5%84ska-64b36089/)
+
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/karolina-szymanska)
+
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karolinaszymanska899@gmail.com)
