@@ -4,7 +4,7 @@
 
 ## Deployment
 
-(![Netlify Status](https://api.netlify.com/api/v1/badges/106c67e0-795d-465a-aebf-f8c2cd6ffd64/deploy-status)) https://project-exam-2-karolina-szymanska.netlify.app
+![Netlify Status](https://api.netlify.com/api/v1/badges/106c67e0-795d-465a-aebf-f8c2cd6ffd64/deploy-status) https://project-exam-2-karolina-szymanska.netlify.app
 
 ## Description
 
